@@ -1,0 +1,309 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/x86_64-linux-gnu-ld
+checking if the linker (/usr/bin/x86_64-linux-gnu-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/x86_64-linux-gnu-ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/x86_64-linux-gnu-ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ranlib... (cached) ranlib
+checking whether byte ordering is bigendian... no
+checking for inline... inline
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for bison... bison
+checking for flex... flex
+checking for inttypes.h... (cached) yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking sys/sockio.h usability... no
+checking sys/sockio.h presence... no
+checking for sys/sockio.h... no
+checking for floor in -lm... yes
+checking for ceil in -lm... yes
+checking uuid/uuid.h usability... no
+checking uuid/uuid.h presence... no
+checking for uuid/uuid.h... no
+checking for inet_ntoa in -lnsl... no
+checking for socket in -lsocket... no
+checking whether printf must be declared... no
+checking whether fprintf must be declared... no
+checking whether syslog must be declared... no
+checking whether puts must be declared... no
+checking whether fputs must be declared... no
+checking whether fputc must be declared... no
+checking whether fopen must be declared... no
+checking whether fclose must be declared... no
+checking whether fwrite must be declared... no
+checking whether fflush must be declared... no
+checking whether getopt must be declared... no
+checking whether bzero must be declared... no
+checking whether bcopy must be declared... no
+checking whether memset must be declared... no
+checking whether strtol must be declared... no
+checking whether strcasecmp must be declared... no
+checking whether strncasecmp must be declared... no
+checking whether strerror must be declared... no
+checking whether perror must be declared... no
+checking whether socket must be declared... no
+checking whether sendto must be declared... no
+checking whether vsnprintf must be declared... no
+checking whether snprintf must be declared... no
+checking whether strtoul must be declared... no
+checking for sigaction... yes
+checking for strlcpy... yes
+checking for strlcat... yes
+checking for strerror... yes
+checking for vswprintf... yes
+checking for wprintf... yes
+checking for memrchr... yes
+checking for inet_ntop... yes
+checking for gettid... yes
+checking for snprintf... yes
+checking for malloc_trim... yes
+checking for mallinfo... yes
+checking size of char... 1
+checking size of short... 2
+checking size of int... 4
+checking size of long int... 8
+checking size of long long int... 8
+checking size of unsigned int... 4
+checking size of unsigned long int... 8
+checking size of unsigned long long int... 8
+checking for u_int8_t... yes
+checking for u_int16_t... yes
+checking for u_int32_t... yes
+checking for u_int64_t... yes
+checking for uint8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for int8_t... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for boolean... no
+checking for INADDR_NONE... yes
+checking for __FUNCTION__... yes
+checking for pcap_datalink in -lpcap... yes
+checking for pcap_lex_destroy... no
+checking for pcap_lib_version... yes
+checking pcre.h usability... yes
+checking pcre.h presence... yes
+checking for pcre.h... yes
+checking for pcre_compile in -lpcre... yes
+checking for libpcre version 6.0 or greater... yes
+checking for SHA256_Init in -lcrypto... yes
+checking for MD5_Init in -lcrypto... yes
+checking dnet.h usability... yes
+checking dnet.h presence... yes
+checking for dnet.h... yes
+checking dumbnet.h usability... yes
+checking dumbnet.h presence... yes
+checking for dumbnet.h... yes
+checking for eth_set in -ldnet... no
+checking for eth_set in -ldumbnet... yes
+checking for dlsym in -ldl... yes
+checking for daq_load_modules in -ldaq_static... yes
+checking for daq_hup_apply... yes
+checking for daq_acquire_with_meta... yes
+checking for daq_dp_add_dc... yes
+checking for daq real addresses... no
+checking whether DAQ_PKT_FLAG_DECRYPTED_SSL is declared... no
+checking whether DAQ_PKT_FLAG_LOCALLY_ORIGINATED is declared... no
+checking whether DAQ_PKT_FLAG_LOCALLY_DESTINED is declared... no
+checking for struct _DAQ_DP_key_t.sa.src_ip4... yes
+checking for daq address space ID... yes
+checking for daq flow ID... yes
+checking for daq extended flow modifiers... no
+checking for daq query flow... no
+checking for daq data channel flags... no
+checking for separate IP versions on pinhole endpoints... no
+checking for DAQ_VERDICT_RETRY... yes
+checking for daq packet trace... no
+DAQ version doesn't support packet trace.
+checking for daq verdict reason... no
+DAQ version doesn't support tracing verdict reason.
+checking for sparc... no
+checking for visibility support... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for inflate in -lz... yes
+checking lzma.h usability... yes
+checking lzma.h presence... yes
+checking for lzma.h... yes
+checking for lzma_stream_decoder in -llzma... yes
+checking for pthread_tryjoin_np... yes
+checking for nghttp2_option_new in -lnghttp2... yes
+checking for linuxthreads... no
+checking for yylex_destroy support... yes
+checking for SFLINUX... no
+checking for WRLINUX... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating snort.pc
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/sfutil/Makefile
+config.status: creating src/control/Makefile
+config.status: creating src/file-process/Makefile
+config.status: creating src/file-process/libs/Makefile
+config.status: creating src/side-channel/Makefile
+config.status: creating src/side-channel/dynamic-plugins/Makefile
+config.status: creating src/side-channel/dynamic-plugins/snort_side_channel.pc
+config.status: creating src/side-channel/plugins/Makefile
+config.status: creating src/detection-plugins/Makefile
+config.status: creating src/dynamic-examples/Makefile
+config.status: creating src/dynamic-examples/dynamic-preprocessor/Makefile
+config.status: creating src/dynamic-examples/dynamic-rule/Makefile
+config.status: creating src/dynamic-plugins/Makefile
+config.status: creating src/dynamic-plugins/sf_engine/Makefile
+config.status: creating src/dynamic-plugins/sf_engine/examples/Makefile
+config.status: creating src/dynamic-plugins/sf_preproc_example/Makefile
+config.status: creating src/dynamic-preprocessors/Makefile
+config.status: creating src/dynamic-preprocessors/libs/Makefile
+config.status: creating src/dynamic-preprocessors/libs/snort_preproc.pc
+config.status: creating src/dynamic-preprocessors/ftptelnet/Makefile
+config.status: creating src/dynamic-preprocessors/smtp/Makefile
+config.status: creating src/dynamic-preprocessors/ssh/Makefile
+config.status: creating src/dynamic-preprocessors/sip/Makefile
+config.status: creating src/dynamic-preprocessors/reputation/Makefile
+config.status: creating src/dynamic-preprocessors/gtp/Makefile
+config.status: creating src/dynamic-preprocessors/dcerpc2/Makefile
+config.status: creating src/dynamic-preprocessors/pop/Makefile
+config.status: creating src/dynamic-preprocessors/imap/Makefile
+config.status: creating src/dynamic-preprocessors/sdf/Makefile
+config.status: creating src/dynamic-preprocessors/dns/Makefile
+config.status: creating src/dynamic-preprocessors/ssl/Makefile
+config.status: creating src/dynamic-preprocessors/modbus/Makefile
+config.status: creating src/dynamic-preprocessors/dnp3/Makefile
+config.status: creating src/dynamic-preprocessors/s7commplus/Makefile
+config.status: creating src/dynamic-preprocessors/file/Makefile
+config.status: creating src/dynamic-preprocessors/appid/Makefile
+config.status: creating src/dynamic-output/Makefile
+config.status: creating src/dynamic-output/plugins/Makefile
+config.status: creating src/dynamic-output/libs/Makefile
+config.status: creating src/dynamic-output/libs/snort_output.pc
+config.status: creating src/output-plugins/Makefile
+config.status: creating src/preprocessors/Makefile
+config.status: creating src/preprocessors/HttpInspect/Makefile
+config.status: creating src/preprocessors/HttpInspect/include/Makefile
+config.status: creating src/preprocessors/HttpInspect/utils/Makefile
+config.status: creating src/preprocessors/HttpInspect/anomaly_detection/Makefile
+config.status: creating src/preprocessors/HttpInspect/client/Makefile
+config.status: creating src/preprocessors/HttpInspect/files/Makefile
+config.status: creating src/preprocessors/HttpInspect/event_output/Makefile
+config.status: creating src/preprocessors/HttpInspect/mode_inspection/Makefile
+config.status: creating src/preprocessors/HttpInspect/normalization/Makefile
+config.status: creating src/preprocessors/HttpInspect/server/Makefile
+config.status: creating src/preprocessors/HttpInspect/session_inspection/Makefile
+config.status: creating src/preprocessors/HttpInspect/user_interface/Makefile
+config.status: creating src/preprocessors/Session/Makefile
+config.status: creating src/preprocessors/Stream6/Makefile
+config.status: creating src/parser/Makefile
+config.status: creating src/target-based/Makefile
+config.status: creating doc/Makefile
+config.status: creating rpm/Makefile
+config.status: creating preproc_rules/Makefile
+config.status: creating m4/Makefile
+config.status: creating etc/Makefile
+config.status: creating templates/Makefile
+config.status: creating tools/Makefile
+config.status: creating tools/control/Makefile
+config.status: creating tools/u2boat/Makefile
+config.status: creating tools/u2spewfoo/Makefile
+config.status: creating tools/u2openappid/Makefile
+config.status: creating tools/u2streamer/Makefile
+config.status: creating tools/file_server/Makefile
+config.status: creating src/win32/Makefile
+config.status: creating src/reload-adjust/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands

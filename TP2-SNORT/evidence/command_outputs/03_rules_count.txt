@@ -1,0 +1,5 @@
+      0 /etc/snort/rules/black_list.rules
+   4054 /etc/snort/rules/community.rules
+      0 /etc/snort/rules/local.rules
+      0 /etc/snort/rules/white_list.rules
+   4054 total

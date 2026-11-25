@@ -1,0 +1,19 @@
+--- lsb_release -a ---
+Distributor ID:	Ubuntu
+Description:	Ubuntu 26.04.1 LTS
+Release:	26.04
+Codename:	resolute
+--- uname -a ---
+Linux MASERATI 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 GNU/Linux
+--- df -h / ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  2.8G  953G   1% /
+--- ip -br addr ---
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
+eth0             UP             172.21.40.110/20 fe80::215:5dff:fe32:1f88/64 
+--- ip link ---
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 00:15:5d:32:1f:88 brd ff:ff:ff:ff:ff:ff
+    altname enx00155d321f88

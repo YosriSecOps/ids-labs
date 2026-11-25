@@ -1,0 +1,95 @@
+Frame 15: Packet, 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan  6, 2014 22:20:26.755456000 CET
+    UTC Arrival Time: Jan  6, 2014 21:20:26.755456000 UTC
+    Epoch Arrival Time: 1389043226.755456000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 391.000 microseconds]
+    [Time since reference or first frame: 6.826000 milliseconds]
+    Frame Number: 15
+    Frame Length: 1514 bytes (12112 bits)
+    Capture Length: 1514 bytes (12112 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:smtp:data-text-lines]
+    Character encoding: ASCII (0)
+Ethernet II, Src: VMware_1d:b3:b1 (00:0c:29:1d:b3:b1), Dst: VMware_0f:71:a3 (00:0c:29:0f:71:a3)
+    Destination: VMware_0f:71:a3 (00:0c:29:0f:71:a3)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_1d:b3:b1 (00:0c:29:1d:b3:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 1]
+Internet Protocol Version 4, Src: 192.168.47.171, Dst: 192.168.47.134
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1500
+    Identification: 0x0274 (628)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x1226 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.47.171
+    Destination Address: 192.168.47.134
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 1061, Dst Port: 25, Seq: 92, Ack: 263, Len: 1460
+    Source Port: 1061
+    Destination Port: 25
+    [Stream index: 0]
+    [Stream Packet Number: 13]
+    [Conversation completeness: Incomplete, DATA (15)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ··DASS]
+    [TCP Segment Len: 1460]
+    Sequence Number: 92    (relative sequence number)
+    Sequence Number (raw): 3390540923
+    [Next Sequence Number: 1552    (relative sequence number)]
+    Acknowledgment Number: 263    (relative ack number)
+    Acknowledgment number (raw): 2441546021
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+0420  44 69 73 6f 2d 38 38 35 39 2d 31 22 3e 0d 0a 3c   Diso-8859-1">..<
+0430  4d 45 54 41 20 63 6f 6e 74 65 6e 74 3d 33 44 22   META content=3D"
+0440  4d 53 48 54 4d 4c 20 36 2e 30 30 2e 32 39 30 30   MSHTML 6.00.2900
+0450  2e 32 31 38 30 22 20 6e 61 6d 65 3d 33 44 47 45   .2180" name=3DGE
+0460  4e 45 52 41 54 4f 52 3e 0d 0a 3c 53 54 59 4c 45   NERATOR>..<STYLE
+0470  3e 3c 2f 53 54 59 4c 45 3e 0d 0a 3c 2f 48 45 41   ></STYLE>..</HEA
+0480  44 3e 0d 0a 3c 42 4f 44 59 20 62 67 43 6f 6c 6f   D>..<BODY bgColo
+0490  72 3d 33 44 23 66 66 66 66 66 66 3e 0d 0a 3c 44   r=3D#ffffff>..<D
+04a0  49 56 3e 3c 46 4f 4e 54 20 66 61 63 65 3d 33 44   IV><FONT face=3D
+04b0  41 72 69 61 6c 20 73 69 7a 65 3d 33 44 32 3e 54   Arial size=3D2>T
+04c0  65 73 74 20 6e 75 6d 62 65 72 73 20 61 72 65 3a   est numbers are:
+04d0  3c 2f 46 4f 4e 54 3e 3c 2f 44 49 56 3e 0d 0a 3c   </FONT></DIV>..<
+04e0  44 49 56 3e 3c 46 4f 4e 54 20 66 61 63 65 3d 33   DIV><FONT face=3
+04f0  44 41 72 69 61 6c 20 73 69 7a 65 3d 33 44 32 3e   DArial size=3D2>
+0500  3c 2f 46 4f 4e 54 3e 26 6e 62 73 70 3b 3c 2f 44   </FONT>&nbsp;</D
+0510  49 56 3e 0d 0a 3c 44 49 56 3e 3c 46 4f 4e 54 20   IV>..<DIV><FONT 
+0520  66 61 63 65 3d 33 44 41 72 69 61 6c 20 73 69 7a   face=3DArial siz
+0530  65 3d 33 44 32 3e 35 35 35 35 20 35 35 35 35 20   e=3D2>5555 5555 
+0540  35 35 35 35 20 35 35 35 35 3c 2f 46 4f 4e 54 3e   5555 5555</FONT>
+0550  3c 2f 44 49 56 3e 0d 0a 3c 44 49 56 3e 3c 46 4f   </DIV>..<DIV><FO
+0560  4e 54 20 66 61 63 65 3d 33 44 41 72 69 61 6c 20   NT face=3DArial 
+0570  73 69 7a 65 3d 33 44 32 3e 34 33 32 31 20 34 34   size=3D2>4321 44
+0580  34 34 20 33 32 31 34 20 33 32 31 32 3c 2f 46 4f   44 3214 3212</FO
+0590  4e 54 3e 3c 2f 44 49 56 3e 0d 0a 3c 44 49 56 3e   NT></DIV>..<DIV>
+05a0  3c 46 4f 4e 54 20 66 61 63 65 3d 33 44 41 72 69   <FONT face=3DAri
+05b0  61 6c 20 73 69 7a 65 3d 33 44 32 3e 34 31 31 31   al size=3D2>4111
+05c0  2d 34 30 30 30 2d 34 33 32 31 2d 33 32 31 30 3c   -4000-4321-3210<
+05d0  2f 46 4f 4e 54 3e 3c 2f 44 49 56 3e 0d 0a 3c 44   /FONT></DIV>..<D
+05e0  49 56 3e 26 6e 62 73 70 3b 3c                     IV>&nbsp;<
+

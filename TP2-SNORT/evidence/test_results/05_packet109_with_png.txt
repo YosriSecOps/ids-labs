@@ -1,0 +1,65 @@
+Frame 109: Packet, 312 bytes on wire (2496 bits), 312 bytes captured (2496 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan  5, 2014 21:15:59.843622000 CET
+    UTC Arrival Time: Jan  5, 2014 20:15:59.843622000 UTC
+    Epoch Arrival Time: 1388952959.843622000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 23.931000 milliseconds]
+    [Time since reference or first frame: 19.292671000 seconds]
+    Frame Number: 109
+    Frame Length: 312 bytes (2496 bits)
+    Capture Length: 312 bytes (2496 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:png]
+    Character encoding: ASCII (0)
+Ethernet II, Src: VMware_fd:2f:16 (00:50:56:fd:2f:16), Dst: VMware_1d:b3:b1 (00:0c:29:1d:b3:b1)
+    Destination: VMware_1d:b3:b1 (00:0c:29:1d:b3:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_fd:2f:16 (00:50:56:fd:2f:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 176.255.203.40, Dst: 192.168.47.171
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 298
+    Identification: 0xf685 (63109)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0xd6cc [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 176.255.203.40
+    Destination Address: 192.168.47.171
+    [Stream index: 8]
+Transmission Control Protocol, Src Port: 80, Dst Port: 2732, Seq: 5841, Ack: 324, Len: 258
+    Source Port: 80
+    Destination Port: 2732
+    [Stream index: 11]
+    [Stream Packet Number: 10]
+    [Conversation completeness: Incomplete (12)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..0. = SYN-ACK: Absent
+        .... ...0 = SYN: Absent
+        [Completeness Flags: ··DA··]
+    [TCP Segment Len: 258]
+    Sequence Number: 5841    (relative sequence number)
+    Sequence Number (raw): 1025728058
+    [Next Sequence Number: 6099    (relative sequence number)]
+    Acknowledgment Number: 324    (relative ack number)
+    Acknowledgment number (raw): 2358113919
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)

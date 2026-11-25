@@ -1,0 +1,12 @@
+[2026-11-25 00:40] Inspection initiale WSL2 Ubuntu 26.04.1 LTS (Resolute), noyau 6.18.33.2-microsoft-standard-WSL2, eth0=172.21.40.110/20, 953 Go libres.
+[2026-11-25 00:45] Installation des dépendances APT (build-essential, flex, bison, libpcap-dev, libdumbnet-dev, libdaq-dev, zlib1g-dev, libnghttp2-dev, libluajit-5.1-dev, libssl-dev, liblzma-dev, libtirpc-dev, tcpdump, tshark, tcpreplay, python3-docx, libreoffice-writer).
+[2026-11-25 00:47] Compilation et installation de PCRE 8.45 dans /usr/local.
+[2026-11-25 00:50] Compilation et installation de SNORT 2.9.20 GRE (Build 82) avec -std=gnu17 -fcommon et libtirpc. Vérifié via snort -V.
+[2026-11-25 00:51] Création de l'utilisateur snort, sauvegarde de snort.conf original, installation des Community Rules (4054 lignes), configuration de /etc/snort/snort.conf et validation réussie via snort -T.
+[2026-11-25 00:51] Test détection ICMP (sid:10000001) sur eth0 avec ping -c 4 8.8.8.8 -> 4 alertes Ping Detected générées.
+[2026-11-25 00:54] Vérification magic bytes PNG (89 50 4E 47 0D 0A 1A 0A) via hexdump -C et inspection paquet 109 de with_png.pcap via tshark.
+[2026-11-25 00:55] Rejeu de with_png.pcap via tcpreplay -i eth0 (114 paquets) + snort -r : 1 alerte PNG (sid:1000002) et 4 alertes GIF89a (sid:1000003, paquets 28, 62, 69, 76).
+[2026-11-25 00:56] Inspection paquet 15 de email_cc2.pcap via tshark + rejeu snort -r : 3 alertes Visa PCRE (sid:1000004).
+[2026-11-25 01:12] Capture des 9 captures d'écran réelles du terminal WSL dans ~/TP_SNORT/screenshots/.
+[2026-11-25 01:14] Génération de rapport_TP_SNORT.docx (460 Ko) et conversion PDF rapport_TP_SNORT.pdf (567 Ko) via LibreOffice.
+[2026-11-25 01:15] Restauration des fichiers de configuration sauvegardés et nettoyage des fichiers temporaires (/tmp/snort_build, /tmp/snort_pcaps, /tmp/cap_scripts).
